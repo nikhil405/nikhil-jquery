@@ -1,7 +1,8 @@
 debugger
 $("#result").hide();
 $("button").click(function(){
-	if($("#fname").val()=="" || $("#sname").val()== "" || $("email").val()=="" || $("adress").val()== "")
+	if($("#fname").val()=="" || $("#sname").val()== "" || $("#email").val()=="" || 
+		$("#adress").val()== "")
 	{
 		window.alert("Name must be filled out");
 	}else{
@@ -12,9 +13,9 @@ $("button").click(function(){
 		$("#firstname").text(firstname1);
 		var lastname=$("#sname").val();
 		$("#lastname").text(lastname);
-		var email=$("#sname").val();
+		var email=$("#email").val();
 		$("#mail").text(email);
-		var adress=$("#sname").val();
+		var adress=$("#adress").val();
 		$("#adr").text(adress);
 	}
 });
