@@ -1,0 +1,9 @@
+$("h1").click(function(){
+	$("h1").toggleClass("red");           
+});
+$("h2").click(function(){
+	$("h2").toggleClass("green");           
+});
+$("h3").click(function(){
+	$("h3").toggleClass("blue");           
+});
